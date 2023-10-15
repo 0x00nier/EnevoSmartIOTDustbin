@@ -10,13 +10,13 @@
 #else
 #error Wrong platform
 #endif 
-const char* googleApiKey = "AIzaSyCB4-OBThLgfivj4bbg7qH7rRvzIGdn9Ao";
-const char* ssid = "pinchu";
-const char* passwd = "pinchu0499";
+const char* googleApiKey = "<API_KEY>";
+const char* ssid = "<SSID>";
+const char* passwd = "<PASSWD>";
 #define TRIG_PIN 2 //D4 (GPI02 Pin)
 #define ECHO_PIN 0 //D3 (GPI00 Pin)
-#define FIREBASE_HOST "smartbin-70cb3.firebaseio.com"
-#define FIREBASE_AUTH "JfKpn9F81YdCnUtbqOyK0USTZic109rf6XyBltMR"
+#define FIREBASE_HOST "<FIREBASE_HOST"
+#define FIREBASE_AUTH "<FIREBASE_AUTH>"
 long duration;
 int distance;
 
